@@ -1,0 +1,150 @@
+[
+  {
+    "id": 1234,
+    "name": "Cherry",
+    "newPrice": 30,
+    "oldPrice": 40,
+    "category": [
+      "FRUITS AND VEGETABLES",
+      "Others"
+    ],
+    "img": "./images/food-1.jpg"
+  },
+  {
+    "id": 1235,
+    "name": "Coconut ice cream",
+    "newPrice": 20,
+    "oldPrice": 30,
+    "category": [
+      "DESSERT, FOOD, FRUITS AND VEGETABLES",
+      "Others"
+    ],
+    "img": "./images/food-2.jpg"
+  },
+  {
+    "id": 1236,
+    "name": "Croissant",
+    "newPrice": 10,
+    "oldPrice": 15,
+    "category": [
+      "BAKERY PRODUCTS",
+      "Others"
+    ],
+    "img": "./images/food-3.jpg"
+  },
+  {
+    "id": 1237,
+    "name": "Cupcake",
+    "newPrice": 25,
+    "oldPrice": 35,
+    "category": [
+      "DESSERT",
+      "Others"
+    ],
+    "img": "./images/food-4.jpg"
+  },
+  {
+    "id": 1238,
+    "name": "Pancakes",
+    "newPrice": 50,
+    "oldPrice": 60,
+    "category": [
+      "FOOD",
+      "FRUITS AND VEGETABLES",
+      "READY MEAL",
+      "Others"
+    ],
+    "img": "./images/food-5.jpg"
+  },
+  {
+    "id": 1239,
+    "name": "Pasta",
+    "newPrice": 40,
+    "oldPrice": 45,
+    "category": [
+      "FOOD",
+      "FRUITS AND VEGETABLES",
+      "READY MEAL",
+      "Others"
+    ],
+    "img": "./images/food-6.jpg"
+  },
+  {
+    "id": 1240,
+    "name": "Tomato juice",
+    "newPrice": 20,
+    "oldPrice": 30,
+    "category": [
+      "FOOD",
+      "FRUITS AND VEGETABLES",
+      "READY MEAL",
+      "Others"
+    ],
+    "img": "./images/food-7.jpg"
+  },
+  {
+    "id": 1241,
+    "name": "Tomatoes",
+    "newPrice": 15,
+    "oldPrice": 20,
+    "category": [
+      "FOOD",
+      "FRUITS AND VEGETABLES",
+      "READY MEAL",
+      "Others"
+    ],
+    "img": "./images/food-8.jpg"
+  },
+  {
+    "id": 1242,
+    "name": "Сheese snack",
+    "newPrice": 10,
+    "oldPrice": 20,
+    "category": [
+      "FOOD",
+      "SNACKS",
+      "READY MEAL",
+      "Others"
+    ],
+    "img": "./images/food-9.jpg"
+  },
+  {
+    "id": 1243,
+    "name": "Orrange",
+    "newPrice": 40,
+    "oldPrice": 45,
+    "category": [
+      "FOOD",
+      "FRUITS",
+      "READY MEAL",
+      "Others"
+    ],
+    "img": "./images/food-10.png"
+  },
+  {
+    "id": 1244,
+    "name": "Apple",
+    "newPrice": 25,
+    "oldPrice": 30,
+    "category": [
+      "FOOD",
+      "FRUITS",
+      "READY MEAL",
+      "Others"
+    ],
+    "img": "./images/food-11.png"
+  },
+  {
+    "id": 1245,
+    "name": "Water lemon",
+    "newPrice": 50,
+    "oldPrice": 60,
+    "category": [
+      "FOOD",
+      "FRUITS",
+      "READY MEAL",
+      "Others"
+    ],
+    "img": "./images/food-12.png"
+  }
+]

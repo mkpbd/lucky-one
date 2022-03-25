@@ -1,0 +1,36 @@
+1. Cherry
+ 	FRUITS AND VEGETABLES
+   Price: 25$
+
+2. Coconut ice cream
+	DESSERT, FOOD, FRUITS AND VEGETABLES
+   price : 15$
+
+3. Croissant
+	BAKERY PRODUCTS
+	price: 10$
+
+4. 	Cupcake
+	DESSERT
+	price: 20$
+
+5. Pancakes
+	FOOD, FRUITS AND VEGETABLES, READY MEAL
+	price: 30$
+
+6.	 Pasta
+	FOOD, FRUITS AND VEGETABLES, READY MEAL
+	price: 40$
+
+
+7. 	Tomato juice
+	FRUITS AND VEGETABLES
+
+	price: 30$
+
+8.	 Tomatoes
+	FOOD, FRUITS AND VEGETABLES
+
+9.	 Сheese snack
+	FOOD, SNACKS
+
