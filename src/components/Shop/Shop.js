@@ -35,13 +35,13 @@ const Shop = () => {
 
     const removeProductFormCart = (productId) => {
 
-      const proId =   cart.find(c => c.id == productId);
+      const proId =   cart.filter(c => c.id !== productId);
 
         delete cart[proId];
 
-        console.log(cart, "delete prodid")
+        console.log(proId, "delete prodid")
 
-        setCart(cart);
+        setCart(proId);
 
 
     }
