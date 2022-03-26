@@ -1,7 +1,7 @@
 
-Food app Link:  [Food App ](https://mostofa-lucky-one.netlify.app/).
+Food app Link:  [Food App ](https://mostofa-lucky-one.netlify.app/)(https://mostofa-lucky-one.netlify.app/).
 
-GitHub Link:  (https://github.com/Programming-Hero-Web-Course4/lucky-one-mostofakamalpassa) 
+GitHub Link: [GitHub] (https://github.com/Programming-Hero-Web-Course4/lucky-one-mostofakamalpassa) (https://github.com/Programming-Hero-Web-Course4/lucky-one-mostofakamalpassa) 
 
 
 ###  `Project description`
@@ -17,7 +17,10 @@ GitHub Link:  (https://github.com/Programming-Hero-Web-Course4/lucky-one-mostofa
 ####  how react works
 ####  how react works
 ####  how use  useState
+### Duplicate product message show in card
+
 #### And others 
+
 
 Launches the test runner in the interactive watch mode.\
 See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
