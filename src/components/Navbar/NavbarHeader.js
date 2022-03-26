@@ -11,7 +11,7 @@ const NavbarHeader = () => {
   return (
     <>
       <Navbar bg="light" expand="lg">
-        <Container>
+        <Container fluid className="px-5">
           <Navbar.Brand href="#">Food App</Navbar.Brand>
           <Navbar.Toggle aria-controls="navbarScroll" />
           <Navbar.Collapse id="navbarScroll">

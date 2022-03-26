@@ -1,5 +1,6 @@
 import React, { useEffect, useState } from "react";
 import { Container, Row, Col } from "react-bootstrap";
+import Cart from "../Cart/Cart";
 import Product from '../Product/Product';
 const Shop = () => {
     // set shopping data 
@@ -20,7 +21,7 @@ const Shop = () => {
 
 
     <>
-      <Container>
+      <Container fluid className="px-5">
         <Row className="mt-5">
           <Col sm={8}>
 
@@ -33,7 +34,11 @@ const Shop = () => {
                  
               </Row>
           </Col>
-          <Col sm={4}>sm=4</Col>
+          <Col sm={4}>
+            
+            <Cart></Cart>
+            
+            </Col>
         </Row>
      
       </Container>

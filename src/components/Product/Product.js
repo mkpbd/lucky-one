@@ -18,7 +18,7 @@ const Product = (props) => {
             <Card.Subtitle>Price: ${newPrice}</Card.Subtitle>
           </Card.Body>
 
-          <Card.Body className="position-relative">
+          <Card.Body className="position-relative mt-3">
               <Button className="btn btn-md btn-secondary w-100 position-absolute bottom-0 start-0">Add to Cart <FaShoppingCart className="ms-1"></FaShoppingCart> </Button>
           </Card.Body>
         </Card>
