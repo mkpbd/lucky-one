@@ -8,8 +8,9 @@ const ErrorMessage = (props) => {
     console.log(props.isDuplicateProduct, "error message");
     const [showA, setShowA] = useState(props.isDuplicateProduct);
   const toggleShowA = () => setShowA(false);
+  
 
-  console.log(showA, 'show Value')
+  //console.log(showA, 'show Value')
 
 
 

@@ -10,8 +10,8 @@ const SingleAns = (props) => {
           <Card.Title>{question}</Card.Title>
           <Card.Text>{answear}</Card.Text>
           <ListGroup variant="flush">
-            {diff.map((item) => (
-              <ListGroup.Item>{item}</ListGroup.Item>
+            {diff.map((item, index) => (
+              <ListGroup.Item key={index}>{item}</ListGroup.Item>
             ))}
           </ListGroup>
         </Card.Body>
