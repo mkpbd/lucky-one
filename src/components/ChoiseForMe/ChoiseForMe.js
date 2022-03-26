@@ -22,6 +22,8 @@ const ChoiseForMe = (props) => {
           </Modal.Header>
           <Modal.Body>
               <img className='thambnail' src={img} alt="image not found" />
+
+              <h4 className='my-4'>Price: {newPrice}</h4>
           </Modal.Body>
           <Modal.Footer>
             <Button variant="secondary" onClick={handleClose}>

@@ -35,7 +35,7 @@ const Shop = () => {
 
     const removeProductFormCart = (productId) => {
 
-      const proId =   cart.find(c => c.id === productId);
+      const proId =   cart.find(c => c.id == productId);
 
         delete cart[proId];
 
@@ -63,6 +63,13 @@ const Shop = () => {
         setChoiseProduct(choiseItems);
    
         
+    }
+
+    // delete all  items form cart data
+    const choseAgeHandle = () =>{
+      const newCart = [];
+
+      setCart(newCart);
     }
 
 
@@ -106,7 +113,7 @@ const Shop = () => {
                     
                     {
                       cart.length>0 && <Col className="col-sm-4 offset-4 mt-3">
-                      <Button className='btn btn-md btn-warning'>Change Agin</Button>
+                      <Button className='btn btn-md btn-warning' onClick={choseAgeHandle}>Change Agin</Button>
                       </Col>
                     }
                 </Row>
