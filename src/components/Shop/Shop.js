@@ -33,7 +33,7 @@ const Shop = () => {
     // validation  duplicate id not allow
     if (duplicateProduct) {
       setIsDuplicateProduct(true);
-      // alert(result.name)
+      alert(duplicateProduct.name + "  product All ready exists in card" );
       // return;
     } else {
       const newCart = [...cart, product];
