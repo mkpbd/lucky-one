@@ -79,8 +79,8 @@ const Shop = () => {
     <>
       <Container fluid className="px-5">
         <Row className="mt-5">
-          <Col sm={8}>
-              <Row className="row-cols-1 row-cols-md-3 g-4">
+          <Col sm={12} md={8}>
+              <Row className="row-cols-1 row-cols-sm-2 row-cols-md-3 g-4">
                   {/* dyname data go hear */}
                     {
                         products.map(product => <Product product={product} key={product.id} addToCartHeandler={addToCartHeandler} ></Product>)
@@ -88,7 +88,8 @@ const Shop = () => {
                  
               </Row>
           </Col>
-          <Col sm={4}>
+
+          <Col sm={10} md={4}>
             
                     <Card className="px-2">
                     {
