@@ -1,26 +1,25 @@
 import React from "react";
-import { Col, Card } from "react-bootstrap";
-
+import { Col, Card, Button } from "react-bootstrap";
+import{FaShoppingCart} from 'react-icons/fa'
+import './Product.css'
 const Product = (props) => {
-  const { id, img, name, newPrice } = props.product;
+  const { id, img, name, newPrice, category } = props.product;
   console.log(props.product);
   return (
     <>
       <Col sm={4}>
-        <Card>
+        <Card className="h-100 p-2">
           <Card.Img variant="top" src={img} />
           <Card.Body>
             <Card.Title>Name: {name}</Card.Title>
-            <Card.Text>
-              Some quick example text to build on the card title and make up the
-              bulk of the card's content.
-            </Card.Text>
+            
+              {/* {category.map(item => <p>{item},</p>)} */}
+           
             <Card.Subtitle>Price: ${newPrice}</Card.Subtitle>
           </Card.Body>
 
-          <Card.Body>
-            <Card.Link href="#">Card Link</Card.Link>
-            <Card.Link href="#">Another Link</Card.Link>
+          <Card.Body className="position-relative">
+              <Button className="btn btn-md btn-secondary w-100 position-absolute bottom-0 start-0">Add to Cart <FaShoppingCart className="ms-1"></FaShoppingCart> </Button>
           </Card.Body>
         </Card>
       </Col>

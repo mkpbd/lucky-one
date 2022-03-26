@@ -25,7 +25,7 @@ const Shop = () => {
           <Col sm={8}>
 
               
-              <Row>
+              <Row className="row-cols-1 row-cols-md-3 g-4">
                   {/* dyname data go hear */}
                     {
                         products.map(product => <Product product={product} key={product.id}></Product>)
