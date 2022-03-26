@@ -3,11 +3,15 @@ import React, { useEffect, useState } from "react";
 import { Container, Row, Col, Card, Button } from "react-bootstrap";
 import Cart from "../Cart/Cart";
 import Product from '../Product/Product';
+ import ChoiseForMe from '../ChoiseForMe/ChoiseForMe';
+
 const Shop = () => {
     // set shopping data 
     const [products, setProducts] = useState([]);
 
     const [cart, setCart] = useState([]);
+    const [choiseProduct, setChoiseProduct] = useState([]);
+
 
     // use effet  for fetch data json files 
     
@@ -40,7 +44,25 @@ const Shop = () => {
         setCart(cart);
 
 
+    }
 
+    // choise for me 
+
+
+
+    const choiseForMe = () => {
+
+      const choise =  Math.floor( Math.random(cart.length)*cart.length);
+
+     // console.log(choise);
+
+       // setCart(cart[choise]);
+
+        const choiseItems = cart[choise];
+       // console.log(choiseItems);
+        setChoiseProduct(choiseItems);
+   
+        
     }
 
 
@@ -69,13 +91,24 @@ const Shop = () => {
             </Card>
             
                 <Row className="py-5">
+                    {cart.length > 1 &&
                     <Col className="col-sm-4 offset-4">
-                    <Button className='btn btn-md btn-suscess'>Choise For Me</Button>
-           
+
+                    {/* <Button className='btn btn-md btn-suscess' 
+                    
+                    onClick = {choiseForMe}>Choise For Me</Button> */}
+                      <div onClick={choiseForMe} >
+                      <ChoiseForMe choise ={choiseProduct}></ChoiseForMe>
+                      </div>
+
                     </Col>
-                    <Col className="col-sm-4 offset-4 mt-3">
-                    <Button className='btn btn-md btn-warning'>Change Agin</Button>
-                    </Col>
+                    }
+                    
+                    {
+                      cart.length>0 && <Col className="col-sm-4 offset-4 mt-3">
+                      <Button className='btn btn-md btn-warning'>Change Agin</Button>
+                      </Col>
+                    }
                 </Row>
             
             </Col>
