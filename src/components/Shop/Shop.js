@@ -1,10 +1,12 @@
 import React, { useEffect, useState } from "react";
-import { Container, Row, Col } from "react-bootstrap";
+import { Container, Row, Col, Card } from "react-bootstrap";
 import Cart from "../Cart/Cart";
 import Product from '../Product/Product';
 const Shop = () => {
     // set shopping data 
     const [products, setProducts] = useState([]);
+
+    const [cart, setCart] = useState([]);
 
     // use effet  for fetch data json files 
     
@@ -15,6 +17,14 @@ const Shop = () => {
     } , [])
 
 
+    const addToCartHeandler = (product)=>{
+      const newCart = [...cart, product ];
+
+      setCart(newCart);
+
+      console.log(cart);
+    }
+
 
 
   return (
@@ -24,19 +34,21 @@ const Shop = () => {
       <Container fluid className="px-5">
         <Row className="mt-5">
           <Col sm={8}>
-
-              
               <Row className="row-cols-1 row-cols-md-3 g-4">
                   {/* dyname data go hear */}
                     {
-                        products.map(product => <Product product={product} key={product.id}></Product>)
+                        products.map(product => <Product product={product} key={product.id} addToCartHeandler={addToCartHeandler}></Product>)
                     }
                  
               </Row>
           </Col>
           <Col sm={4}>
             
-            <Cart></Cart>
+                    <Card>
+                    {
+                      cart.map((cart) => <Cart cart={cart}></Cart>)
+                    }
+            </Card>
             
             </Col>
         </Row>

@@ -8,11 +8,7 @@ function App() {
   return (
     <div>
      <NavbarHeader></NavbarHeader>
-     <Shop></Shop>
-     
-        
-      
-     
+     <Shop></Shop> 
     </div>
   );
 }
