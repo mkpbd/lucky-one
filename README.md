@@ -1,7 +1,7 @@
 
 Food app Link:  [Food App ](https://mostofa-lucky-one.netlify.app/)(https://mostofa-lucky-one.netlify.app/).
 
-GitHub Link: [GitHub] (https://github.com/Programming-Hero-Web-Course4/lucky-one-mostofakamalpassa) (https://github.com/Programming-Hero-Web-Course4/lucky-one-mostofakamalpassa) 
+GitHub Link: [GitHub](https://github.com/Programming-Hero-Web-Course4/lucky-one-mostofakamalpassa) (https://github.com/Programming-Hero-Web-Course4/lucky-one-mostofakamalpassa) 
 
 
 ###  `Project description`
