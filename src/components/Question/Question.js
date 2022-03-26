@@ -12,7 +12,7 @@ const Question = () => {
   }, []);
 
   return (
-    <Container>
+    <Container className="my-5">
       <Row>
         {answear.map((items) => (
           <SingleAns data={items} key={items.question}></SingleAns>

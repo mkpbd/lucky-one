@@ -4,7 +4,19 @@ Food app Link:  [Food App ](https://mostofa-lucky-one.netlify.app/).
 GitHub Link:  (https://github.com/Programming-Hero-Web-Course4/lucky-one-mostofakamalpassa) 
 
 
-### `npm test`
+###  `Project description`
+
+#### Show Product 
+#### Add to cart
+#### Delete form cart
+#### Choise For Me 
+#### Delete all product from cart
+
+#### Duplicate product can not allow
+#### props vs state
+####  how react works
+####  how react works
+####  how use  useState
 
 Launches the test runner in the interactive watch mode.\
 See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
