@@ -99,7 +99,7 @@ const Shop = () => {
       
         <Row>
          
-           {isDuplicateProduct  && <ErrorMessage></ErrorMessage> }
+           {isDuplicateProduct  && <ErrorMessage isDuplicateProduct={isDuplicateProduct}></ErrorMessage> }
  
 
         </Row>

@@ -2,10 +2,8 @@ import React from "react";
 import {
   Navbar,
   Container,
-  Nav,
-  Button,
-  FormControl,
-  Form,
+  Nav
+  
 } from "react-bootstrap";
 const NavbarHeader = () => {
   return (
@@ -21,11 +19,11 @@ const NavbarHeader = () => {
               navbarScroll
             >
               <Nav.Link href="#action1">Home</Nav.Link>
-              <Nav.Link href="#action2">Link</Nav.Link>
+              <Nav.Link href="#action2">Order</Nav.Link>
+              <Nav.Link href="#action2">About us</Nav.Link>
+              <Nav.Link href="#action2">Contact</Nav.Link>
 
-              <Nav.Link href="#" disabled>
-                Link
-              </Nav.Link>
+            
             </Nav>
           </Navbar.Collapse>
         </Container>
