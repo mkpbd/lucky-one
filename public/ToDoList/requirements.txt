@@ -1,0 +1,60 @@
+// 
+
+
+
+
+
+
+1. product image (done)
+2. product name (done)
+3. price  (done)
+4. ADD TO CART  (done)
+5. CART ICON  (done)
+
+6. CHOSE FOR ME  (done)
+
+7. RESPONSIVE  (done)
+
+7. ADD TO CART SELECT KORLE THEN PRODUCT NAME AND IMAGE AND DELETE BUTTON SHOW KORBE IN CART AR MODE  (done)
+
+
+
+
+1. distructureing use korte hobe
+
+2. minmum 6 git comment kortehobe  (done)
+2.1 read me file ar mode project name others thakete hobe
+
+--------- bonus marks -----------
+3.chose aggine  (done)
+
+4. how react works (done)
+
+5. props vs state (done)
+
+6. how use  useState works (done)
+
+7. delete button   (done)
+8.
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+https://preview.themeforest.net/item/greenfarm-organic-food-ecommerce-bootstrap-4-template/full_screen_preview/22722832
