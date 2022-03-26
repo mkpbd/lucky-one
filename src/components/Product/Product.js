@@ -10,7 +10,7 @@ const Product = (props) => {
   return (
     <>
       <Col sm={6} md={4}>
-        <Card className="h-100 p-2">
+        <Card className="h-100 p-2 shadow p-3">
           <Card.Img variant="top" src={img} />
           <Card.Body>
             <Card.Title>Name: {name}</Card.Title>

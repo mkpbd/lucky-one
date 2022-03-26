@@ -4,6 +4,7 @@ import { Container, Row, Col, Card, Button } from "react-bootstrap";
 import Cart from "../Cart/Cart";
 import Product from '../Product/Product';
  import ChoiseForMe from '../ChoiseForMe/ChoiseForMe';
+ import ErrorMessage from '../ErrorMessage/ErrorMessage';
 
 const Shop = () => {
     // set shopping data 
@@ -11,6 +12,8 @@ const Shop = () => {
 
     const [cart, setCart] = useState([]);
     const [choiseProduct, setChoiseProduct] = useState([]);
+
+    const [isDuplicateProduct , setIsDuplicateProduct] = useState(false);
 
 
     // use effet  for fetch data json files 
@@ -22,10 +25,25 @@ const Shop = () => {
     } , [])
 
 // product add to Cart
+
+
     const addToCartHeandler = (product)=>{
+
+      const duplicateProduct  = cart.find((c)=> c.id === product.id);
+
+     // console.log(result);
+
+     // validation  duplicate id not allow
+     if(duplicateProduct){
+      setIsDuplicateProduct(true)
+      // alert(result.name)
+      // return;
+     }else{
       const newCart = [...cart, product ];
 
       setCart(newCart);
+     }
+      
 
       //console.log(cart);
     }
@@ -39,7 +57,7 @@ const Shop = () => {
 
         delete cart[proId];
 
-        console.log(proId, "delete prodid")
+      //  console.log(proId, "delete prodid")
 
         setCart(proId);
 
@@ -78,6 +96,13 @@ const Shop = () => {
 
     <>
       <Container fluid className="px-5">
+      
+        <Row>
+         
+           {isDuplicateProduct  && <ErrorMessage></ErrorMessage> }
+ 
+
+        </Row>
         <Row className="mt-5">
           <Col sm={12} md={8}>
               <Row className="row-cols-1 row-cols-sm-2 row-cols-md-3 g-4">
