@@ -125,7 +125,7 @@ const Shop = () => {
             
                 <Row className="py-5">
                     {cart.length > 1 &&
-                    <Col className="col-sm-4 offset-4">
+                    <Col className="col-sm-6 offset-3">
 
                     {/* <Button className='btn btn-md btn-suscess' 
                     
@@ -138,7 +138,7 @@ const Shop = () => {
                     }
                     
                     {
-                      cart.length>0 && <Col className="col-sm-4 offset-4 mt-3">
+                      cart.length>0 && <Col className="col-sm-6 offset-3 mt-3">
                       <Button className='btn btn-md btn-warning' onClick={choseAgeHandle}>Change Agin</Button>
                       </Col>
                     }
